@@ -1,16 +1,107 @@
 /* Type your code here */
 
+body {
+	background-image: url('assets/background-image1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#logo {
+	float: right; /* for right align of logo */
+}
+
+#heading h1{
+text-align: center;
+text-decoration: underline;
+font-size: 3.5rem;
+padding-top: 0;
+margin-top: 1px;
+}
+
+#b_txt {
+	/* font-weight: 500; */
+	/* font-size: 4rem; */
+	position: relative;
+	top: 3.5rem ;
+	left: 4.5rem;
+	line-height: 0.6;
+	padding-bottom: 6rem;
+}
+#b_txt h1{
+	font-size: 3rem;
+}
+#b_txt h3{
+	font-size: 1.8rem;
+	color: grey;
+}
+
+#cre_table caption{
+	text-align: left;
+  white-space: nowrap;
+
+  background: #f05136;
+  color: white;
+  padding: 0.5rem;
+}
+#cre_table span{
+	padding-left: 25rem;
+	text-align: left;
+}
+
+/* Tooltip text or img*/
+.tooltip .tooltipimg {
+	visibility: hidden;
+	/* width: 120px;
+	background-color: black;
+	color: #fff;
+	text-align: center;A
+	padding: 5px 0;
+	border-radius: 6px; */
+   
+	/* Position the tooltip text - see examples below! */
+	position: absolute;
+	top: 2;
+	left: 0;
+	z-index: 1;
+
+	/* position: absolute;
+	left: -999em;
+	Z-index: 999; */
+	
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltipimg {
+	visibility: visible;
+  }
+
+
+  table ,th ,td {
+	  background-color: ivory;
+	  border-bottom: 1px solid gainsboro;
+	  border-collapse: collapse;
+	  padding: 6px;
+	  text-align: left;
+  }
+
+  
+
+
+
+
+
+
 
 /* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
+.footer {
+	display: flex;
+	flex-direction: row;
+	align-content: flex-end;
 	position: relative;
 	top: 750px;
 	margin-left: 80px;
 	font-size: 18px;
 	font-family: Nunito Sans;
-    font-style: normal;
-    
+	font-style: normal;
+
 }
